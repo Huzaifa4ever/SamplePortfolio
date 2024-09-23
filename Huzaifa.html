@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 1) In this site I use internal CSS because its easy for me to scroll in a single page
+    2)  The temporary image in this site are taken from the google
+    3) And the text that are written in the paragraph is taken from the GPT
+    4) The skills and Certificates are temporary
+    5) font style is taken from the google fonts-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<Style>
+    body {
+        background-color: #1F2E13;
+    }
+
+    .header {
+        height: 530px;
+        border-radius: 50px;
+        background-color: #FAFEA2;
+        font-family: "Alumni Sans", sans-serif;
+        font-optical-sizing: auto;
+
+    }
+
+    .header h1 {
+        color: #1F2E13;
+        font-size: 250px;
+        text-align: center;
+        position: absolute;
+        top: -37%;
+        width: 100%;
+        font-weight: bold 700;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        width: 250px;
+        font-size: 20px;
+        top: 35%;
+        left: 155px;
+        font-weight: 600;
+        font-family: 'Calibri';
+
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        width: 250px;
+        font-size: 20px;
+        top: 55%;
+        right: 137px;
+        font-weight: 600;
+        font-family: 'Calibri';
+        text-align: right;
+    }
+
+    .mid {
+        display: block;
+        margin: -12px auto;
+        padding: 0px;
+        top: 95%;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 0 50px;
+        padding: 0%;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: #FAFEA2;
+        font-size: 20px;
+        font-family: 'Calibri';
+
+    }
+
+    .skills {
+        display: inline-block;
+        text-align: left;
+        position: absolute;
+        left: 20%;
+        top: 100%;
+        width: 500px;
+
+    }
+
+    .skills h1 {
+        color: #FAFEA2;
+        font-family: "Alumni Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 120px;
+        display: inline-block;
+    }
+
+    .para {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+        width: 500px;
+        text-align: justify;
+        font-size: 18px;
+        position: absolute;
+        left: 40%;
+        top: 135%;
+        text-indent: 50%;
+    }
+
+    .protfolio {
+
+        position: absolute;
+        top: 170%;
+        width: 100%;
+        background-color: #FAFEA2;
+        height: 90px;
+
+    }
+
+    .protfolio h1 {
+        color: #1F2E13;
+        font-family: "Alumni Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 120px;
+        width: 100%;
+        text-align: right;
+        position: relative;
+        right: 20%;
+        top: -115%;
+
+    }
+
+    .port1 {
+        width: 400px;
+        height: 220px;
+        left: 10%;
+        position: absolute;
+        top: 200%;
+    }
+
+    .port1 img {
+        position: absolute;
+        top: 0%;
+    }
+
+    .port1 h2 {
+        width: 100%;
+        text-align: center;
+        color: #F0FA77;
+        font-size: 30px;
+        font-family: 'Calibri';
+
+    }
+
+    .port2 {
+        width: 400px;
+        height: 220px;
+        left: 50%;
+        position: absolute;
+        top: 205%;
+    }
+
+    .port2 p {
+        color: #FAFEA2;
+        text-align: justify;
+        font-size: 18px;
+        text-indent: 50%;
+    }
+
+    .port3 {
+        width: 400px;
+        height: 220px;
+        left: 50%;
+        position: absolute;
+        top: 250%;
+    }
+
+    .port3 img {
+        position: absolute;
+        top: -45%;
+        height: auto;
+        width: 120%;
+        right: -10%;
+    }
+
+    .port3 h2 {
+        width: 100%;
+        text-align: center;
+        color: #F0FA77;
+        font-size: 30px;
+        font-family: 'Calibri';
+
+    }
+
+    .port4 {
+        width: 400px;
+        height: 220px;
+        left: 10%;
+        position: absolute;
+        top: 253%;
+    }
+
+    .port4 p {
+        color: #FAFEA2;
+        text-align: justify;
+        font-size: 18px;
+        text-indent: 50%;
+    }
+
+    .cert {
+        display: inline-block;
+        text-align: left;
+        position: absolute;
+        top: 310%;
+        width: 100%;
+        background-color: #FAFEA2;
+        height: 100px;
+
+    }
+
+    .cert h1 {
+        color: #1F2E13;
+        font-family: "Alumni Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 120px;
+        display: inline-block;
+        position: absolute;
+        top: -100%;
+        left: 15%;
+    }
+
+    .cert1 {
+        border-top: 3px solid #FAFEA2;
+        border-bottom: 3px solid #FAFEA2;
+        width: 900px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 335%;
+
+    }
+
+    .cert1 h3 {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+    }
+
+    .cert1 p {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+
+    }
+
+    .cert2 {
+        border-bottom: 3px solid #FAFEA2;
+        width: 900px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 355%;
+
+    }
+
+    .cert2 h3 {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+    }
+
+    .cert2 p {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+
+    }
+
+    .cert3 {
+        border-bottom: 3px solid #FAFEA2;
+        width: 900px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 375%;
+
+    }
+
+    .cert3 h3 {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+    }
+
+    .cert3 p {
+        color: #FAFEA2;
+        font-family: 'Calibri';
+
+    }
+</Style>
+
+<body>
+    <Header class="header">
+        <div>
+            <h1>HUZAIFA ABID</h1>
+            <h1 style="color: #F0FA77; top:-7% ;">HUZAIFA ABID</h1>
+            <h1 style="color: #F0FA77; top: 23%;">HUZAIFA ABID</h1>
+        </div>
+        <div class="left">
+            <p>
+                What makes my web development unique is the combination of technical expertise and a porsonal touch
+            </p>
+        </div>
+        <div class="right">
+            <p>
+                Transforming your vision into a stunning, high-performance website that captivates users and drives
+                growth.
+            </p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Bio Data</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Certificates</a></li>
+            </ul>
+        </div>
+    </Header>
+    <div class="skills">
+        <h1>-Skills-</h1>
+    </div>
+    <div class="para">
+        <p>
+            I am a versatile developer with expertise in web development, Java programming, and the MERN stack. I build
+            dynamic, user-friendly websites with a strong focus on performance and scalability, combining front-end
+            design with powerful backend solutions to deliver high-quality, full-stack applications tailored to client
+            needs.
+        </p>
+    </div>
+
+    <div class="protfolio">
+        <h1>-Portfolio-</h1>
+    </div>
+
+    <div class="container">
+        <div class="port1">
+            <h2>Car Rental System</h2>
+            <img src="car.png">
+        </div>
+        <div class="port2">
+            <p>
+                I developed a car rental system as a Java desktop application, designed to streamline the rental
+                process. The system allows for efficient management of car rentals, including customer details, vehicle
+                availability, and booking operations, providing a seamless and user-friendly experience for both
+                administrators and users.
+            </p>
+        </div>
+
+        <div class="port3">
+            <h2>WebWizardry Studio</h2>
+            <img src="studioo.png">
+        </div>
+        <div class="port4">
+            <p>
+                Explore the WebWizardry Studio’s portfolio, where we showcase our expertise in crafting visually
+                stunning and highly functional websites. From sleek e-commerce platforms to dynamic data dashboards, our
+                projects highlight our commitment to excellence and innovation in web development.
+            </p>
+        </div>
+    </div>
+
+    <div class="cert">
+        <h1>-Certifications-</h1>
+    </div>
+
+    <div class="cert1">
+        <h3>Web Development: 2021</h3>
+        <p>Certified Web Developer with proven expertise in building responsive, high-performance websites and
+            applications that enhance user experiences and drive digital success.</p>
+    </div>
+
+    <div class="cert2">
+        <h3>Java Developer: 2023</h3>
+        <p>Certified Java Developer with in-depth knowledge and practical experience in creating robust, scalable
+            applications. Proven ability to leverage Java technologies to build high-performance solutions and drive
+            innovation.</p>
+    </div>
+
+    <div class="cert3">
+        <h3>Digital Marketing: 2024</h3>
+        <p>Certified in Digital Marketing by Sukkur IBA NFTP, with comprehensive training in strategic online campaigns
+            and data-driven marketing. Equipped with skills to drive growth and enhance brand presence in the digital
+            landscape.</p>
+    </div>
+</body>
+
+</html>
